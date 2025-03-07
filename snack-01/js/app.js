@@ -8,7 +8,7 @@ const bici = [
 ];
 
 // Script
-let minorPeso;
+let minorPeso = bici[0][1];
 for ( let i = 0; i < bici.length; i++) {
     if ( bici[i][1] < minorPeso ) {
 
