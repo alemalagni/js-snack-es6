@@ -74,3 +74,8 @@ for ( let i = 0; i < 11; i++) {
     squadra[i].puntiFatti = parseInt(Math.random() * 20);
     squadra[i].falliSubiti = parseInt(Math.random() * 20);
 };
+
+const nomiFalli = [
+    []
+];
+
