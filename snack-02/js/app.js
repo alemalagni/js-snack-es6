@@ -69,7 +69,7 @@ const squadra = [
 ];
 
 // Script
-for ( let i = 0; i < 11; i++) {
+for ( let i = 0; i < 11; i++ ) {
     squadra[i].nome = `Giocatore ${i}`;
     squadra[i].puntiFatti = parseInt(Math.random() * 20);
     squadra[i].falliSubiti = parseInt(Math.random() * 20);
@@ -79,3 +79,8 @@ const nomiFalli = [
     []
 ];
 
+for ( let i = 0; i < 11; i++ ) {
+    nomiFalli[i][0].push(squadra[i].nome);
+    nomiFalli[i][1].push(squadra[i].falliSubiti);
+}
+console.log(nomiFalli);
